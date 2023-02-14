@@ -1,6 +1,7 @@
 produto para loja: 
     Constructor(){
-    this.nome, 
+    this.nome,
+    this.imagem, 
     this.tipo, 
     this.estoque, 
     this.preço, 
@@ -8,16 +9,26 @@ produto para loja:
     this.modelo
     }
 
+    funções: visualizar() selecionar() comprar() cancelarCompra() favoritar()
+
 
 carrinho de compras para loja: 
     {Nome do produto, cor, preço, 
     quantidade pedida, quantidade disp. , forma de pagamento, endereço, nome cliente}
 
-comida sist. cardápio: Nome do prato, ingredientes, preço, porções, tipo
+    funções: adicionarProduto() removerProduto() escolherPagamento() finalizarCompra() cancelarCompra()
+    esvaziarCarrinho()
+
+comida sist. cardápio:
+    { Nome do prato, ilustração do pratp, ingredientes, preço, porções, tipo}
+    funções: pedir() cancelarPedido() 
 
 
-carro para sist. aluguel: nome do carro, cor, modelo, ano, motor, combustível, linha, valorAluguel
+carro para sist. aluguel: 
+    {foto do carro, nome do carro, cor, modelo, ano, motor, combustível, linha, valorAluguel}
+    funções: verCarro(), pedirALuguel(), simularAluguel(), devolverCarro()
 
-encomenda sist. frete: nome, peso, altura, largura, profundidade, remetente, destinatário, 
-endereço de envio, destino, custo de envio
-
+encomenda sist. frete: 
+    {nome, peso, altura, largura, profundidade, remetente, destinatário, 
+    endereço de envio, destino, custo de envio}
+    funções: procurarEndereco() calcularEnvio() pagEnvio() finalizarEnvio() acompanharEnvio() 
