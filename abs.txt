@@ -1,0 +1,23 @@
+produto para loja: 
+    Constructor(){
+    this.nome, 
+    this.tipo, 
+    this.estoque, 
+    this.preço, 
+    this.cor, 
+    this.modelo
+    }
+
+
+carrinho de compras para loja: 
+    {Nome do produto, cor, preço, 
+    quantidade pedida, quantidade disp. , forma de pagamento, endereço, nome cliente}
+
+comida sist. cardápio: Nome do prato, ingredientes, preço, porções, tipo
+
+
+carro para sist. aluguel: nome do carro, cor, modelo, ano, motor, combustível, linha, valorAluguel
+
+encomenda sist. frete: nome, peso, altura, largura, profundidade, remetente, destinatário, 
+endereço de envio, destino, custo de envio
+
