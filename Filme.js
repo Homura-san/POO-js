@@ -1,11 +1,11 @@
 class Filme{
-    constructor(){
-        this.titulo = '',
-        this.ano = 0,
-        this.genero = '',
-        this.diretor = '',
-        this.atores = [],
-        this.duracao = 0
+    constructor(titulo, ano, genero, diretor, duracao){
+        this.titulo = titulo,
+        this.ano = ano,
+        this.genero = genero,
+        this.diretor = diretor,
+        this.duracao = duracao,
+        this.atores = []
     }
 
     Reproduzir(){
@@ -25,17 +25,9 @@ class Filme{
     }
 }
 
-var vingadores = new Filme();
-vingadores.titulo = "Vingadores 2"
-vingadores.ano = 2014
-vingadores.genero = "Ação"
-
+var vingadores = new Filme("Vingadores 2", 2014, 'Ação', 'fulano', '2h');
 console.log(vingadores.titulo, " ", vingadores.ano, " ", vingadores.genero)
  
-var batman = new Filme();
-
-batman.titulo = "Batman"
-batman.ano = 2009;
-batman.genero = "Ação"
-
+var batman = new Filme("Batman", 2009, "Ação", "fulano 2", "1h");
 console.log(batman.titulo, " ", batman.ano, " ", batman.genero)
+
