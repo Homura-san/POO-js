@@ -21,6 +21,21 @@ class Filme{
     }
 
     Fechar(){
-        console.log('Fechado')
+        console.log('Fechar X')
     }
 }
+
+var vingadores = new Filme();
+vingadores.titulo = "Vingadores 2"
+vingadores.ano = 2014
+vingadores.genero = "Ação"
+
+console.log(vingadores.titulo, " ", vingadores.ano, " ", vingadores.genero)
+ 
+var batman = new Filme();
+
+batman.titulo = "Batman"
+batman.ano = 2009;
+batman.genero = "Ação"
+
+console.log(batman.titulo, " ", batman.ano, " ", batman.genero)
